@@ -1,0 +1,155 @@
+body {
+    max-width: 1500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.khung {
+    background-color: white;
+}
+
+.menu {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu ul {
+    display: flex;
+    line-height: 45px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-right: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li:nth-child(2) a {
+    color: #00856f;
+}
+
+.menu ul li:hover a {
+    padding-bottom: 8px;
+    border-bottom: 5px solid #00856f;
+}
+
+.noidung {
+    display: flex;
+    margin-top: 30px;
+}
+
+.bentrai {
+    width: 23%;
+    padding-right: 25px;
+    border-right: 1px solid #ddd;
+}
+
+.bengiua {
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid #ddd;
+}
+
+.benphai {
+    width: 27%;
+    padding-left: 25px;
+}
+
+.tintuc {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tintuc img {
+    width: 100%;
+}
+
+.tintuc a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.tintuc a:hover {
+    color: #00856f;
+}
+
+.tintuc_chinh img {
+    width: 100%;
+}
+
+.tintuc_chinh a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.tintuc_chinh a:hover {
+    color: #00856f;
+}
+
+.tintuc_chinh p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.tintuc_phai {
+    display: grid;
+    grid-template-columns: 60% auto;
+    column-gap: 15px;
+    padding-top: 25px;
+    margin-top: 25px;
+    border-top: 1px solid #ddd;
+}
+
+.tintuc_phai:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.tintuc_phai img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.tintuc_phai a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.tintuc_phai a:hover {
+    color: #00856f;
+}
+
+.tintuc_phai span {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
