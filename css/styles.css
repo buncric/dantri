@@ -4,10 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.khung {
-    background-color: white;
-}
-
 .menu {
     border-bottom: 1px solid #ddd;
 }
@@ -152,4 +148,172 @@ body {
     border-radius: 15px;
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+.phantiep {
+    display: flex;
+    margin-top: 35px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.cottrai_moi {
+    width: 23%;
+    padding-right: 25px;
+    border-right: 1px solid #ddd;
+}
+
+.cotgiua_moi {
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid #ddd;
+}
+
+.cotphai_moi {
+    width: 27%;
+    padding-left: 25px;
+}
+
+.cottrai_moi h2 {
+    color: #00856f;
+    margin-bottom: 12px;
+}
+
+.video_box {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.video_item {
+    width: 50%;
+    position: relative;
+}
+
+.video_item img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.video_item a {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.tin_doc {
+    margin-bottom: 25px;
+}
+
+.tin_doc img {
+    width: 100%;
+}
+
+.tin_doc span {
+    display: inline-block;
+    margin-top: -32px;
+    margin-left: 10px;
+    padding: 4px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    font-weight: bold;
+}
+
+.tin_doc a {
+    display: block;
+    margin-top: 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.tin_doc a:hover {
+    color: #00856f;
+}
+
+.tin_ngang {
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 22px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tin_ngang img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.tin_ngang a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+.tin_ngang a:hover {
+    color: #00856f;
+}
+
+.hop_tienich {
+    padding: 18px;
+    margin-bottom: 25px;
+    background-color: #fafafa;
+}
+
+.hop_tienich h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.hop_tienich p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.hop_tienich.vang {
+    background-color: #fff8e8;
+}
+
+.tin_tienich {
+    display: grid;
+    grid-template-columns: 120px auto;
+    column-gap: 14px;
+    padding-top: 14px;
+    margin-top: 14px;
+    border-top: 1px solid #eee;
+}
+
+.tin_tienich:first-of-type {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.tin_tienich img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+
+.tin_tienich a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 1.4;
 }
