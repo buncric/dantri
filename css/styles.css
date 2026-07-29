@@ -598,7 +598,7 @@ body {
     border-bottom: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px888;
 }
 
 .tab_xanh .module_menu {
@@ -611,4 +611,32 @@ body {
 .tab_xanh h2 {
     color: #0071bc;
     text-transform: none;
+}
+
+.module_muc1 {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Chu_De_Nong {
+    background-color: #FCF0EE;
+}
+
+.tieu_de {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Chu_De_Nong_Danh_Sach {
+  padding: 8px 20px;      
+  border-radius: 50px;     
+  background-color: #fff;  
+  border: 1px solid #ccc;  
+  font-size: 16px;         
+  cursor: pointer;
 }
